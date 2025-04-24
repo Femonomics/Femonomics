@@ -1,0 +1,60 @@
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border: 2px solid #555;
+}
+
+th {
+  font-weight: bold;
+  background-color: #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Image styling */
+table img {
+  display: block;
+  max-width: 150px;
+  height: auto;
+  transition: opacity 0.3s ease;
+}
+
+table img:hover {
+  opacity: 0.7;
+}
+
+/* Section headers */
+section h2 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #555;
+  padding-bottom: 0.5rem;
+}
+
+/* “Back to top” link style */
+section a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+header, footer {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+header nav a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #0056b3;
+}
